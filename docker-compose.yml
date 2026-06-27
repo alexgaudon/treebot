@@ -1,7 +1,6 @@
 services:
   treebot:
-    build: .
-    image: treebot:latest
+    image: ghcr.io/alexgaudon/treebot:latest
     restart: unless-stopped
     environment:
       DISCORD_TOKEN: ${DISCORD_TOKEN}
