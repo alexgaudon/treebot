@@ -1,0 +1,6 @@
+.env
+treebot
+*.exe
+*.dll
+*.so
+*.dylib
