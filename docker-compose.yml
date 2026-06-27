@@ -1,0 +1,7 @@
+services:
+  treebot:
+    build: .
+    image: treebot:latest
+    restart: unless-stopped
+    environment:
+      DISCORD_TOKEN: ${DISCORD_TOKEN}
